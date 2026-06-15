@@ -260,6 +260,7 @@ list_not_found
 
 ## 4.3 List IDを取得する
 
+Slackのリスト
 SlackリストのURL例：
 
 ```text
