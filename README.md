@@ -261,7 +261,6 @@ list_not_found
 
 ## 4.3 List IDを取得する
 
-Slackのリスト
 SlackリストのURL例：
 
 ```text
@@ -278,11 +277,7 @@ SLACK_LIST_ID=F0123456789
 
 Slack Lists APIでは列名ではなく、内部の `column_id` を使用します。
 
-最も確実な方法は：
-
-1. 各列に識別用のテスト値を入力
-2. `slackLists.items.list` または `slackLists.items.info` でリスト情報を取得
-3. `list_metadata.schema` にある列名とIDを対応付ける
+get_slack_column_ids.pyを実行し、IDを取得します。取得したIDは以下の.envに入れます。
 
 必要な設定は次の形式です。
 
