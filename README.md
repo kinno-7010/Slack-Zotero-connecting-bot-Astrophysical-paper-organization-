@@ -38,7 +38,7 @@ Slackの専用チャンネルに論文リンクを投稿すると、論文情報
 
 ```text
 paper_inbox_bot/
-├── paper_inbox_bot_zotero.py        # Slackリスト + Zoteroへ登録
+├── paper_inbox_bot_zotero.py        # Slackリスト + Zoteroへ登録（[Chapter 7](https://github.com/kinno-7010/Slack-Zotero-connecting-bot-Astrophysical-paper-organization-#7-%E6%89%8B%E5%8B%95%E8%B5%B7%E5%8B%95%E3%81%A8%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D)）
 ├── paper_inbox_bot_zotero_direct.py # Slackリストを介さずZoteroへ直接登録
 ├── paper_inbox_bot.py               # Slackリストだけへ登録する旧版・比較用
 ├── get_slack_column_ids.py          # SlackリストのColumnのIDを取得
