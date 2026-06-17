@@ -426,7 +426,7 @@ ZOTERO_API_KEY=...
 
 ## 6.2 Zotero User IDとCollection Keyを取得する
 
-`inspect_zotero.py` 内の`TARGET_PATH`を指定し、実行します。
+`.env` 内の`TARGET_PATH`を指定し、実行します。
 
 対象コレクションの例：
 
@@ -435,7 +435,7 @@ ZOTERO_API_KEY=...
 └ 読みたい論文
    └ レビュー論文
 ```
-→　`"読みたい論文/レビュー論文"`と.envに記入
+→　`TARGET_PATH=読みたい論文/レビュー論文`と.envに記入
 
 出力例
 ```text
