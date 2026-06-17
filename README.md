@@ -37,6 +37,7 @@ Slackの専用チャンネルに論文リンクを投稿すると、論文情報
 paper_inbox_bot/
 ├── paper_inbox_bot_zotero.py        # 本番用Bot。Slackリスト + Zoteroへ登録
 ├── paper_inbox_bot.py               # Slackリストだけへ登録する旧版・比較用
+├── get_slack_column_ids.py          # SlackリストのColumnのIDを取得
 ├── requirements.txt                 # Python依存パッケージ
 ├── .env                             # トークン・ID。Gitへ登録しない
 └── README.md
