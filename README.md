@@ -445,7 +445,7 @@ library access : True
 write access   : True
 
 ---- Target collection ----
-path           : 読みたい論文/未印刷
+path           : 読みたい論文/レビュー論文
 collection key : ABCD1234
 
 Add these lines to .env:
