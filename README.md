@@ -347,9 +347,7 @@ Botの受信ログに表示される `channel` の値を使用しても構いま
 
 ## 5.1 API Keyを作成する
 
-Zoteroへログインし、API Keys画面でPrivate Keyを作成します。
-
-- <https://www.zotero.org/settings/keys>
+<https://www.zotero.org/> を開き、ログイン→Security→Applications→Create new private keyでAPI Keyを作成。
 
 推奨設定：
 
