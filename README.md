@@ -43,6 +43,7 @@ paper_inbox_bot/
 ├── paper_inbox_bot.py               # Slackリストだけへ登録する旧版・比較用
 ├── get_slack_column_ids.py          # SlackリストのColumnのIDを取得
 ├── inspect_zotero.py                # ZoteroにあるフォルダのIDを取得
+├── sync_slack_list_to_zotero.py     # すでにリストに登録されている論文をZoteroに登録
 ├── requirements.txt                 # Python依存パッケージ
 ├── .env                             # トークン・ID。Gitへ登録しない
 └── README.md
